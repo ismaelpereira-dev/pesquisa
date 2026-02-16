@@ -8,6 +8,10 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+img{
+  width: 1320px;
+}
+
 body{
 	background-color: var(--bg);
 	color: var(--text);
@@ -117,6 +121,7 @@ a:hover{
 .img{
 	display: grid;
 	grid-template-columns:1fr;
+  justify-items: center;
 	
 	
 }
@@ -172,6 +177,10 @@ h2{
 	padding-top: 50px;
 }
 
+.objetivo h2{
+  text-align: center;
+}
+
 .team {
   width: 100%;
   margin-top: 25px;
@@ -225,6 +234,10 @@ h2{
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   z-index: 1000;
+}
+
+#titulo:hover{
+  color: var(--accent);
 }
 
  a:hover {
